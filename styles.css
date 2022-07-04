@@ -1,0 +1,65 @@
+body {
+  background: #fff;
+  background-image: url('./assets/background.svg');
+}
+
+header {
+  text-align: center;
+  margin: 5%;
+}
+
+header>img{
+  height: 10vh;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(251, 0, 255, 0.53);
+  border-radius: 20px;  
+}
+
+a {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}
+
+.foto {
+  text-align: center;
+  position: relative;
+}
+
+.info {
+  display: none;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: white;
+  top: 0;
+}
+
+.btn-fixed{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+  color: rgb(251, 0, 255);
+  transition: 0.1s;
+}
+.btn-fixed:hover{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+  color: rgb(153, 0, 156);
+}
+
+.btn-fixed.visible{
+  visibility: visible;
+}
