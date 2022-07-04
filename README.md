@@ -1,7 +1,7 @@
 # Front-end - Avalição Squid
 
 ## Notas
-Etapas do Javascript ainda em desenvolvimento, porém já responsivo com exibição do feed atualizado.
+Etapas do Javascript ainda em desenvolvimento, porém já responsivo com exibição do feed atualizado. Utilizei o bootstrap para configuração do layout pois não consegui utilizar a biblioteca da Squid.
 
 ## Proposta
 Criar uma página HTML utilizando de ponto de partida esse repositório.
