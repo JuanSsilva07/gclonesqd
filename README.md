@@ -1,5 +1,8 @@
 # Front-end - Avalição Squid
 
+## Notas
+Etapas do Javascript ainda em desenvolvimento, porém já responsivo com exibição do feed atualizado.
+
 ## Proposta
 Criar uma página HTML utilizando de ponto de partida esse repositório.
 Depois, utilizando Javascript pegar os dados do JSON da requisição `(GET) - https://us-central1-squid-apis.cloudfunctions.net/test-front-basic`.
